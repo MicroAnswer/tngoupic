@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/pic_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/pic_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#99000000"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:singleLine="true"
+        android:text="开叉长裙美女性感沙发撩人艺术"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"/>
+
+</FrameLayout>
